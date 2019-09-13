@@ -1,0 +1,47 @@
+import java.util.*;
+public class madlibs {
+	
+	public static void main(String[] args) {
+		
+		Scanner chris = new Scanner(System.in);
+		
+		
+	System.out.println("Enter a name");
+	
+	String name = chris.nextLine();
+	
+System.out.println("Enter a location");
+	
+	String location = chris.nextLine();
+	
+System.out.println("Enter a noun");
+	
+	String noun = chris.nextLine();
+	
+System.out.println("Enter a bodypart");
+	
+	String bodypart = chris.nextLine();
+	
+System.out.println("Enter a phrase");
+	
+	String phrase = chris.nextLine();
+	
+System.out.println("Enter an adjective");
+	
+	String adjective = chris.nextLine();
+	
+System.out.println("Enter a verb");
+	
+	String verb = chris.nextLine();
+	
+System.out.println("Enter an adjective");
+	
+	String adjective2  = chris.nextLine();
+	
+	
+	System.out.println("Mickeys Not-So-Scary Adventure");
+	System.out.println("Hiya " + name + " tonight is the night we are going to have some fun ;). Are you ready to head to " + location +"? Upon arriving at said location, Goofy trips over a " + noun + " and busts his " + bodypart + " open. After busting his " + bodypart + " he screams " + phrase + ". You become " + adjective + " and " + verb + " on the spot. Mickeys not so scary adventure, ha. More like a Mickeys not so " + adjective2 + " adventure.");
+	
+	}
+
+}
