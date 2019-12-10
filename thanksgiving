@@ -1,0 +1,26 @@
+
+public class thanksGiving {
+
+	private double tol = Math.random() * 25 + 75;
+	private double turk = Math.random() * 0 + 10;
+	private double mash = Math.random() * 0 + 5;
+	private double bean = Math.random() * 2 + 15;
+	private double cass = Math.random() * 10 + 20;
+	private double mix = Math.random() * 10 + 25;
+
+	public thanksGiving(int stress, int foodAnnoy) {
+
+		stress = (int)tol;
+		foodAnnoy = (int)turk +(int) mash + (int)bean + (int)cass + (int)mix;
+		if (foodAnnoy > stress)
+			return false;
+		else
+			return true;
+		
+	}
+
+	
+	
+}
+
+	
