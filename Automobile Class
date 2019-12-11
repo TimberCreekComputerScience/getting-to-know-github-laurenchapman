@@ -1,0 +1,46 @@
+
+public abstract class Automobile {
+
+	private int numOfWheels;
+	private double fuelLevel;
+	private double maxFuel;
+	private double milesPerGallon;
+
+	public Automobile(int wheels, int miles, int fuel) {
+		numOfWheels = wheels;
+		maxFuel = fuel;
+		fuelLevel = fuel;
+		milesPerGallon = miles;
+	}
+
+	public void drive(double drove) {
+		double fuelUsed = drove / milesPerGallon;
+		fuelLevel = fuelUsed;
+		if (fuelLevel < 0) {
+			fuelLevel = 0;
+		}
+
+	}
+
+	public boolean isEmpty() {
+		if (fuelLevel == 0) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public void fillerUp() {
+		fuelLevel = maxFuel;
+	}
+
+	public int getWheels() {
+		return numOfWheels;
+	}
+
+	public String toString() {
+
+		return "Cug Cug";
+	}
+
+}
