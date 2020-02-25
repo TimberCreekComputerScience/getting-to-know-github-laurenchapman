@@ -1,0 +1,17 @@
+package code;
+
+public class lauren {
+
+	public static void main (String[] args) {
+		int [] a = {2, 5, 3 } ;
+		
+		for (int i = 0; i < a.length; i++) {
+			a
+			int [] done = {};
+			
+			System.out.print(a[i]);
+			
+			
+		}
+	}
+}
