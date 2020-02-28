@@ -1,0 +1,20 @@
+public class laurenIsMadThirsty {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] grades = {25,65,85};
+		int sum = 0;
+		int min = Integer.MAX_VALUE;
+		
+		for(int i = 0; i < grades.length; i++){
+			if (grades[i] < min){
+				min = grades[i];
+			}
+			sum+=grades[i];
+		}
+		
+		System.out.println((double)((sum-min)/(grades.length-1)));
+
+	}
+
+}
